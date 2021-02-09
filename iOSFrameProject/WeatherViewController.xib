@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherViewController" customModule="ECOCityProject" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="58g-Lz-xLe" id="omG-gw-wFD"/>
+                <outlet property="showAlertView" destination="uUU-Bi-44X" id="mcl-ug-NOE"/>
+                <outlet property="showAutoTipBtn" destination="kx8-17-IGA" id="QDS-Zk-jKT"/>
+                <outlet property="showHumidityLB" destination="leI-cL-URn" id="nXe-Yb-p7k"/>
+                <outlet property="showLocationLB" destination="hub-Za-b1Y" id="xyI-EI-kHk"/>
+                <outlet property="showPM25BgView" destination="nmA-rE-QOp" id="loh-Vp-ivx"/>
+                <outlet property="showTemperatureLB" destination="mOP-uq-Dyl" id="hjc-bz-Mhy"/>
+                <outlet property="showUpdateTimeLB" destination="AWz-GT-SQn" id="s7z-Bf-Ota"/>
+                <outlet property="showWeatherLB" destination="YgW-dT-CWZ" id="IMU-RL-82L"/>
+                <outlet property="showWindDirectionLB" destination="sXN-1y-Hya" id="EbI-Po-7lr"/>
+                <outlet property="showWindSpeedLB" destination="Tyz-jo-KO6" id="w38-HI-olu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58g-Lz-xLe">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uUU-Bi-44X">
+                            <rect key="frame" x="34" y="0.0" width="306" height="236"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qsa-Hi-7jP">
+                                    <rect key="frame" x="0.0" y="38" width="306" height="198"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nmA-rE-QOp">
+                                            <rect key="frame" x="0.0" y="0.0" width="306" height="154"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOP-uq-Dyl">
+                                                    <rect key="frame" x="89" y="19" width="148" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Thin" family="PingFang SC" pointSize="65"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YgW-dT-CWZ">
+                                                    <rect key="frame" x="8" y="28" width="103" height="62"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="PingFangSC-Thin" family="PingFang SC" pointSize="36"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyz-jo-KO6">
+                                                    <rect key="frame" x="128" y="129" width="70" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <state key="normal" title=" --" image="weather_windspeed"/>
+                                                </button>
+                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXN-1y-Hya">
+                                                    <rect key="frame" x="50" y="129" width="70" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <state key="normal" title=" --" image="weather_winddirection"/>
+                                                </button>
+                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leI-cL-URn">
+                                                    <rect key="frame" x="206" y="129" width="70" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <state key="normal" title=" --" image="weather_humidity"/>
+                                                </button>
+                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hub-Za-b1Y">
+                                                    <rect key="frame" x="40" y="98" width="226" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <state key="normal" title="定位中..." image="home_location_icon"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJ6-6M-9uL">
+                                                    <rect key="frame" x="263" y="0.0" width="43" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <state key="normal" image="weather_reflesh"/>
+                                                    <connections>
+                                                        <action selector="weatherRefleshBtnClick:" destination="-1" eventType="touchUpInside" id="WVt-80-4Tp"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.40392156862745099" green="0.81176470588235294" blue="0.0" alpha="0.60201733732876717" colorSpace="calibratedRGB"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rDd-sv-0uu">
+                                            <rect key="frame" x="0.0" y="154" width="306" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1小时前发布" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWz-GT-SQn">
+                                                    <rect key="frame" x="174" y="12" width="119" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kx8-17-IGA">
+                                                    <rect key="frame" x="15" y="6" width="152" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <state key="normal" title=" 不再自动提示" image="weather_no_tip">
+                                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <state key="selected" title=" 不再自动提示" image="weather_tip"/>
+                                                    <connections>
+                                                        <action selector="weatherTipBtnClick:" destination="-1" eventType="touchUpInside" id="vUI-Ux-K8L"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ybk-Lv-6Qf">
+                                    <rect key="frame" x="180" y="0.0" width="0.5" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.79545697773972601" colorSpace="calibratedRGB"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zD4-v7-u3X">
+                    <rect key="frame" x="87" y="20" width="200" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KO-V2-AcB">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="selectedCityBtnClick:" destination="-1" eventType="touchUpInside" id="v0R-gh-fKj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AE1-ZX-B6b">
+                            <rect key="frame" x="100" y="0.0" width="100" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="weatherBtnClick:" destination="-1" eventType="touchUpInside" id="Y3x-vX-UZ1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Hpm-Iu-089"/>
+                        <constraint firstAttribute="height" constant="44" id="gTZ-Q3-iGk"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSQ-Or-zZZ">
+                    <rect key="frame" x="315" y="20" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mu8-Gr-7o1"/>
+                        <constraint firstAttribute="width" constant="44" id="sb9-tS-g5T"/>
+                    </constraints>
+                    <connections>
+                        <action selector="userIconBtnClick:" destination="-1" eventType="touchUpInside" id="0Vm-VE-w7o"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="58g-Lz-xLe" secondAttribute="bottom" id="BQi-t8-6fV"/>
+                <constraint firstItem="zD4-v7-u3X" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ex0-XX-5hx"/>
+                <constraint firstAttribute="trailing" secondItem="58g-Lz-xLe" secondAttribute="trailing" id="JFE-wU-Vcg"/>
+                <constraint firstAttribute="trailing" secondItem="HSQ-Or-zZZ" secondAttribute="trailing" constant="16" id="NE3-Ig-G6Q"/>
+                <constraint firstItem="58g-Lz-xLe" firstAttribute="top" secondItem="zD4-v7-u3X" secondAttribute="bottom" id="Nk0-Uh-gqK"/>
+                <constraint firstItem="58g-Lz-xLe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Smh-4X-9NS"/>
+                <constraint firstItem="HSQ-Or-zZZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="dp4-KT-tu2"/>
+                <constraint firstItem="zD4-v7-u3X" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="esA-U7-W3F"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="63.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_location_icon" width="14" height="14"/>
+        <image name="weather_humidity" width="9" height="12"/>
+        <image name="weather_no_tip" width="16" height="16"/>
+        <image name="weather_reflesh" width="16" height="19"/>
+        <image name="weather_tip" width="16" height="16"/>
+        <image name="weather_winddirection" width="13" height="13"/>
+        <image name="weather_windspeed" width="19" height="9"/>
+    </resources>
+</document>

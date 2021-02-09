@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  iOSFrameProject
+
+  Created by 陈帆 on 2018/2/26.
+  Copyright © 2018年 陈帆. All rights reserved.
+*/
+// home string
+"locating" = "定位中...";
+"sence" = "实景";
+"senceWall" = "实景墙";
+"rank" = "排行榜";
+"addAttention" = "添加关注";
+"besideNow" = "身边此刻";
+"worldNow" = "世界此刻";
+"myAttention" = "我的关注";
+
+//

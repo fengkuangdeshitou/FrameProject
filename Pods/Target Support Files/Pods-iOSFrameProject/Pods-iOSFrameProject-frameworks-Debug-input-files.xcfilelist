@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSFrameProject/Pods-iOSFrameProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSONMappable/SwiftyJSONMappable.framework
+${BUILT_PRODUCTS_DIR}/pop/pop.framework

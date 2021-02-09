@@ -1,0 +1,222 @@
+
+/* Class = "UIButton"; normalTitle = "碳币充值"; ObjectID = "12H-SV-PAc"; */
+"12H-SV-PAc.normalTitle" = "碳币充值";
+
+/* Class = "UIButton"; normalTitle = "西安市"; ObjectID = "4dS-GF-zyW"; */
+"4dS-GF-zyW.normalTitle" = "西安市";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5sc-d9-m9e"; */
+"5sc-d9-m9e.text" = "Label";
+
+/* Class = "UILabel"; text = "粉丝"; ObjectID = "673-0F-FOY"; */
+"673-0F-FOY.text" = "粉丝";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "79K-yq-cQo"; */
+"79K-yq-cQo.text" = "Label";
+
+/* Class = "UILabel"; text = "江苏天长环保科技有限公司"; ObjectID = "9Iw-Tr-fod"; */
+"9Iw-Tr-fod.text" = "江苏天长环保科技有限公司";
+
+/* Class = "UILabel"; text = "      《250你发布》是一款手机拍照，自动美化图片，发布实景照片的软件。\n通过其他人所拍摄的实景照片足不出户了解户外环境，为出行提供帮助。\n倡导数字环保，服务生活是我们的宗旨。我们将建立环保的大数据，在建设生态城市的道路上我们永不放弃，也感谢您的支持与帮助。"; ObjectID = "9bJ-41-Wjk"; */
+"9bJ-41-Wjk.text" = "      《250你发布》是一款手机拍照，自动美化图片，发布实景照片的软件。\n通过其他人所拍摄的实景照片足不出户了解户外环境，为出行提供帮助。\n倡导数字环保，服务生活是我们的宗旨。我们将建立环保的大数据，在建设生态城市的道路上我们永不放弃，也感谢您的支持与帮助。";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AGJ-v6-Cs4"; */
+"AGJ-v6-Cs4.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AKR-Wu-ImR"; */
+"AKR-Wu-ImR.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Apm-TO-KYZ"; */
+"Apm-TO-KYZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "C2T-YY-YCT"; */
+"C2T-YY-YCT.text" = "Title";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Eup-qu-hhc"; */
+"Eup-qu-hhc.text" = "0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FfT-pL-olf"; */
+"FfT-pL-olf.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "GZD-Go-8Zv"; */
+"GZD-Go-8Zv.normalTitle" = "忘记密码";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "H9c-TD-yTn"; */
+"H9c-TD-yTn.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "HGI-h3-kZA"; */
+"HGI-h3-kZA.text" = "0";
+
+/* Class = "UILabel"; text = "关注"; ObjectID = "HzF-nk-KTY"; */
+"HzF-nk-KTY.text" = "关注";
+
+/* Class = "UITextField"; placeholder = "验证码"; ObjectID = "ILd-Bg-PZf"; */
+"ILd-Bg-PZf.placeholder" = "验证码";
+
+/* Class = "UILabel"; text = "PM2.5："; ObjectID = "IyO-8v-Jol"; */
+"IyO-8v-Jol.text" = "PM2.5：";
+
+/* Class = "UILabel"; text = " 空气很好"; ObjectID = "Jiv-nR-sdZ"; */
+"Jiv-nR-sdZ.text" = " 空气很好";
+
+/* Class = "UIButton"; normalTitle = "去付款"; ObjectID = "KFJ-Gl-v3D"; */
+"KFJ-Gl-v3D.normalTitle" = "去付款";
+
+/* Class = "UILabel"; text = "关注"; ObjectID = "Kp3-X3-41K"; */
+"Kp3-X3-41K.text" = "关注";
+
+/* Class = "UILabel"; text = "PM2.5："; ObjectID = "L57-fa-im7"; */
+"L57-fa-im7.text" = "PM2.5：";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "LoR-KL-6h0"; */
+"LoR-KL-6h0.text" = "Version";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NOZ-tU-u8s"; */
+"NOZ-tU-u8s.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OHL-X8-OFz"; */
+"OHL-X8-OFz.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "排行榜"; ObjectID = "QqM-cn-1f2"; */
+"QqM-cn-1f2.normalTitle" = "排行榜";
+
+/* Class = "UIButton"; normalTitle = "发布"; ObjectID = "QwT-3y-y67"; */
+"QwT-3y-y67.normalTitle" = "发布";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "RMm-f3-Rye"; */
+"RMm-f3-Rye.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Sw3-Mk-mtI"; */
+"Sw3-Mk-mtI.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "添加关注"; ObjectID = "VDz-sI-DBL"; */
+"VDz-sI-DBL.normalTitle" = "添加关注";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VeG-gh-YbQ"; */
+"VeG-gh-YbQ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "登 录"; ObjectID = "X7M-Ei-Tws"; */
+"X7M-Ei-Tws.normalTitle" = "登 录";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "XP1-P5-DKr"; */
+"XP1-P5-DKr.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "--"; ObjectID = "XTt-Yq-1Ih"; */
+"XTt-Yq-1Ih.normalTitle" = "--";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "YxY-gh-jEK"; */
+"YxY-gh-jEK.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "208"; ObjectID = "Z2b-H6-UqR"; */
+"Z2b-H6-UqR.normalTitle" = "208";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "aBz-4P-iOH"; */
+"aBz-4P-iOH.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "aT2-QC-Nak"; */
+"aT2-QC-Nak.text" = "0";
+
+/* Class = "UILabel"; text = "250"; ObjectID = "aZX-gI-053"; */
+"aZX-gI-053.text" = "250";
+
+/* Class = "UILabel"; text = "实景"; ObjectID = "agn-mU-hB0"; */
+"agn-mU-hB0.text" = "实景";
+
+/* Class = "UIButton"; normalTitle = "如何获取碳币"; ObjectID = "aiy-fh-xn1"; */
+"aiy-fh-xn1.normalTitle" = "如何获取碳币";
+
+/* Class = "UILabel"; text = "西安交通大学环保大数据研究中心"; ObjectID = "b5K-rB-SMF"; */
+"b5K-rB-SMF.text" = "西安交通大学环保大数据研究中心";
+
+/* Class = "UIButton"; normalTitle = "登录其他账号"; ObjectID = "c4R-SG-Bds"; */
+"c4R-SG-Bds.normalTitle" = "登录其他账号";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "cGZ-hG-2br"; */
+"cGZ-hG-2br.normalTitle" = "注册";
+
+/* Class = "UITextField"; placeholder = "输入新密码"; ObjectID = "cbm-fC-sTx"; */
+"cbm-fC-sTx.placeholder" = "输入新密码";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cf5-Ua-8mm"; */
+"cf5-Ua-8mm.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "输入绑定的手机号"; ObjectID = "dNG-pd-bwn"; */
+"dNG-pd-bwn.placeholder" = "输入绑定的手机号";
+
+/* Class = "UILabel"; text = "实景"; ObjectID = "dnV-Rc-45i"; */
+"dnV-Rc-45i.text" = "实景";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "ef3-Cw-9Qj"; */
+"ef3-Cw-9Qj.normalTitle" = "注册";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "ewz-Va-DJS"; */
+"ewz-Va-DJS.title" = "保存";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fHi-uJ-6tD"; */
+"fHi-uJ-6tD.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "支付金额"; ObjectID = "gjq-up-y9i"; */
+"gjq-up-y9i.placeholder" = "支付金额";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "i01-zu-Lq9"; */
+"i01-zu-Lq9.title" = "保存";
+
+/* Class = "UIButton"; normalTitle = "实景墙"; ObjectID = "i1u-Qk-d3c"; */
+"i1u-Qk-d3c.normalTitle" = "实景墙";
+
+/* Class = "UILabel"; text = "拍摄于 2017年01月01日"; ObjectID = "j2e-cR-d2H"; */
+"j2e-cR-d2H.text" = "拍摄于 2017年01月01日";
+
+/* Class = "UIButton"; normalTitle = "排行榜"; ObjectID = "jPY-eM-ZRK"; */
+"jPY-eM-ZRK.normalTitle" = "排行榜";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "jfL-Ut-cxz"; */
+"jfL-Ut-cxz.text" = "0";
+
+/* Class = "UITextField"; placeholder = "请填写一个昵称吧"; ObjectID = "jg1-zX-crn"; */
+"jg1-zX-crn.placeholder" = "请填写一个昵称吧";
+
+/* Class = "UILabel"; text = "碳币使用规则协议"; ObjectID = "luR-aJ-105"; */
+"luR-aJ-105.text" = "碳币使用规则协议";
+
+/* Class = "UIButton"; normalTitle = "退出登录"; ObjectID = "qvU-LN-P2p"; */
+"qvU-LN-P2p.normalTitle" = "退出登录";
+
+/* Class = "UILabel"; text = "优惠券"; ObjectID = "rLR-3u-nEl"; */
+"rLR-3u-nEl.text" = "优惠券";
+
+/* Class = "UILabel"; text = "----年 --月--日"; ObjectID = "roJ-SS-ibt"; */
+"roJ-SS-ibt.text" = "----年 --月--日";
+
+/* Class = "UISearchBar"; placeholder = "请输入用户昵称"; ObjectID = "rui-Tt-Szw"; */
+"rui-Tt-Szw.placeholder" = "请输入用户昵称";
+
+/* Class = "UILabel"; text = "250你发布"; ObjectID = "uRn-tG-lu7"; */
+"uRn-tG-lu7.text" = "250你发布";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "vAv-n6-O2b"; */
+"vAv-n6-O2b.text" = "0";
+
+/* Class = "UILabel"; text = "获取验证码"; ObjectID = "vUf-RQ-jI2"; */
+"vUf-RQ-jI2.text" = "获取验证码";
+
+/* Class = "UILabel"; text = "美化后"; ObjectID = "vYB-fv-GGe"; */
+"vYB-fv-GGe.text" = "美化后";
+
+/* Class = "UITextField"; placeholder = "输入验证码"; ObjectID = "vbq-3W-p40"; */
+"vbq-3W-p40.placeholder" = "输入验证码";
+
+/* Class = "UIButton"; normalTitle = "--"; ObjectID = "vcx-TK-JoI"; */
+"vcx-TK-JoI.normalTitle" = "--";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wEk-vk-6LC"; */
+"wEk-vk-6LC.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wrt-2I-kYh"; */
+"wrt-2I-kYh.text" = "Title";
+
+/* Class = "UILabel"; text = "粉丝"; ObjectID = "xFT-ex-UhD"; */
+"xFT-ex-UhD.text" = "粉丝";
+
+/* Class = "UILabel"; text = "获取验证码"; ObjectID = "yU5-1C-kuc"; */
+"yU5-1C-kuc.text" = "获取验证码";
